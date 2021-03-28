@@ -8,25 +8,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.css" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.min.css">
-
     <title>my library</title>
-
 <body>
-    <header class="header container">
-        <div class="logo-menu-wrapper">
-            <a class="logo link " href="./index.html" lang="en">Filmoteka</a>
-
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a class="logo link " href="./index.html" lang="en">
+                    <svg class="menu-btn-svg" width="25px" height="25px">
+                        <use href="./images/film.svg"></use>
+                    </svg>              
+                    <span class="hidden-in-mobile">Filmoteka</span></a>
+                <nav class="nav">
+                    <ul class="nav-list list">
+                        <li class="nav-list-item">
+                            <a class="nav-list-link link " href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-list-item">
+                            <a class="nav-list-link link active" href="./myLibrary.html">my library</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
-        <nav class="nav">
-            <ul class="nav-list list">
-                <li class="nav-list-item">
-                    <a class="nav-list-link link active" href="./index.html">Home</a>
-                </li>
-                <li class="nav-list-item">
-                    <a class="nav-list-link link" href="./myLibrary.html">my library</a>
-                </li>
-            </ul>
-        </nav>
         
 
 
