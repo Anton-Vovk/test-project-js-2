@@ -31,6 +31,7 @@ h3 {
 
 .link {
   text-decoration: none;
+  color: #ffffff;
 }
 
 .container {
@@ -72,7 +73,7 @@ h3 {
   padding-top: 40px;
   padding-bottom: 65px;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: 1px solid #000000;
@@ -119,6 +120,7 @@ h3 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-bottom: 50px;
 }
 
 @media screen and (min-width: 768px) {
@@ -126,7 +128,7 @@ h3 {
     font-weight: 500;
     font-size: 30px;
     line-height: 1.167;
-    color: #ff6b01;
+    color: #ffffff;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     align-items: center;
     text-align: center;
@@ -155,7 +157,7 @@ h3 {
   align-items: center;
   text-align: center;
   text-transform: uppercase;
-  color: #ff6b01;
+  color: #ffffff;
   display: inline-flex;
 }
 
@@ -198,5 +200,42 @@ h3 {
     left: 0;
     bottom: -3px;
   }
+}
+
+.header-btn {
+  width: 136px;
+  height: 44px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.33;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+
+.header-btn:first-child {
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-btn:first-child {
+    margin-right: 15px;
+  }
+}
+
+.header-menu-list {
+  display: flex;
+  justify-content: center;
+}
+
+.active-btn {
+  background-color: #ff6b01;
+  border: 1px solid #ff6b01;
 }
 /*# sourceMappingURL=main.css.map */
